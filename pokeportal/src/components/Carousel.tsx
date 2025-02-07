@@ -22,32 +22,86 @@ const Carousel: React.FC = () => {
           modules={[Navigation]}
         >
           <SwiperSlide>
+            <h1 className="mb-4 text-3xl text-center">PokePack</h1>
             <img
               src="/images/PokePack.png"
-              alt="Slide 1"
+              alt="PokePack slide 1"
               className="w-full h-full object-cover"
             />
+            <p className="mb-4 text-center mt-2">
+              Pokemon pack opening simulator.
+            </p>
+            <div className="text-center mt-4">
+              <a
+                href="https://pokepack.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-4 inline-block px-6 py-3 bg-yellow-500 text-white rounded hover:bg-yellow-300"
+              >
+                View Project
+              </a>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
+            <h1 className="mb-4 text-3xl text-center">PokeDeck</h1>
             <img
               src="/images/PokeDeck.png"
-              alt="Slide 2"
+              alt="PokeDeck slide 2"
               className="w-full h-full object-cover"
             />
+            <p className="text-center mt-2">A Pokedex for Pokemon TCG.</p>
+            <div className="text-center mt-4">
+              <a
+                href="https://pokedexdeck.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-4 inline-block px-6 py-3 bg-yellow-500 text-white rounded hover:bg-yellow-300"
+              >
+                View Project
+              </a>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
+            <h1 className="mb-4 text-3xl text-center">PokeStats</h1>
             <img
               src="/images/PokeStats.png"
-              alt="Slide 3"
+              alt="PokeStats slide 3"
               className="w-full h-full object-cover"
             />
+            <p className="text-center mt-2">
+              A Pokedex app to search for Pokemon and view their statistics.
+            </p>
+            <div className="text-center mt-4">
+              <a
+                href="https://pokedexstats.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-4 inline-block px-6 py-3 bg-yellow-500 text-white rounded hover:bg-yellow-300"
+              >
+                View Project
+              </a>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
+            <h1 className="mb-4 text-3xl text-center">PokeGuesser</h1>
             <img
               src="/images/PokeGuesser.png"
-              alt="Slide 4"
+              alt="PokeGuesser slide 4"
               className="w-full h-full object-cover"
             />
+            <p className="text-center mt-2">
+              Guess the Pokémon by the sprite image.
+            </p>
+            <div className="text-center mt-4">
+              <a
+                href="https://pokedexguesser.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-4 inline-block px-6 py-3 bg-yellow-500 text-white rounded hover:bg-yellow-300"
+              >
+                View Project
+              </a>
+            </div>
           </SwiperSlide>
         </Swiper>
         <button className="swiper-button-prev"></button>
